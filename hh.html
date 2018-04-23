@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>last page</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<style>
+button{
+      height: 35px;
+      width: 200px;
+      margin: 10px;
+      background:#A40A3c;
+    }
+  div{
+   
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left:100px;
+	color :#008080 ;
+	background-color: #222
+}
+
+.id1
+{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 80px;
+   
+	
+}
+.id2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 15px;
+   
+	
+}
+.id3
+{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 25px;
+   
+	
+}
+.id4
+{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 5px;
+   
+	
+}
+.id5{
+
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 35px;
+}
+.for{
+color :#008080 ;
+	background-color: #222
+}
+.text-center{
+            text-align: center;
+        }
+
+</style>
+<body>
+<div>
+<div>
+<h1 class="text-center"> <strong>Commission calculation: Result</strong></h1><hr>
+<form >
+<table class="for">
+
+ <tr><td> Employee's name</td><td> <input    type="text" name="Employee's name:" ></td></tr>
+ 
+<tr><td>  Employer's name:</td><td>  <input  type="text" name="Employer's name:" ></td></tr>
+
+ <tr><td> Date the employee is paid:</td><td> <input    type="date" name="bday"></td></tr>
+  
+ <tr><td> Province of employment:</td><td><input    type="text" name="Province of employment:"></td></tr>
+  
+ <tr><td>  DFederal amount from TD1:</td> <td><input  type="number" name="Federal amount from TD1:" value="0.00" ></td></tr>
+ 
+  <tr><td>Provincial amount from TD1:</td> <td><input  type="number" name="Provincial amount from TD1::value='0.00'">
+</td></tr>
+  
+  </table>
+   </form> <br><br><br>
+
+ 
+
+  <table width="600" height="10" class="for">
+  <tr><td>Commission income</td><td> <input type="number"  name="Commission" value="0.00"></td></tr>
+ <tr><td>Taxable benefit paid in cash</td><td><input type="number"  name="benefit paid"value="0.00"></td></tr>
+ <tr><td><strong>Total cash income</strong></td><td><input type="number"  name="total"value="0.00"></td></tr>
+<tr><td>Pensionable earnings for the pay period</td><td><input type="number"  name="Pensionable earnings"value="0.00"></td></tr>
+<tr><td>Insurable earnings for the pay period</td><td><input type="number"  name="Insurable earnings "value="0.00"></td></tr>
+<tr><td>Federal tax deduction</td><td><input type="number"  name="Federal tax  "value="0.00"></td></tr>
+<tr><td>Provincial tax deduction</td><td><input type="number"  name="Provincial tax "value="0.00"></td></tr>
+<tr><td>Additional tax deductions</td><td><input type="number" name="Additional tax  "value="0.00"></td></tr>
+<tr><td>Total tax deductions</td><td><input type="number"  name="Total tax  "value="0.00"></td></tr>
+<tr><td>QPP deductions </td><td><input type="number"  name="QPP deductions  "value="0.00"></td></tr>
+<tr><td>EI deductions </td><td><input type="number"  name="EI deductions  "value="0.00"></td></tr>
+<tr><td>Adjustment to net amount </td><td><input type="number"  name="Adjustment  "value="0.00"></td></tr>
+<tr><td><strong>Total deductions</strong></td><td><input type="number"  name="Total deductions  "value="0.00"></td></tr>
+<tr><tfoot><td><strong>Net amount</strong></td><td><input type="number"  name="Net amount"value="0.00"></td></tfoot></tr>
+  </table><br><br><br>
+ 
+  
+ 
+  
+ <form>
+ <p ><font size="5"><strong>Amounts for commission calculation</font></strong><p>
+ <table class="for">
+ <tr>
+<td> <strong>Total remuneration from TD1x</strong></td>
+ <td><input type="number" name="Total remuneration " value="0.00" ></td></tr>
+ <tr><td><strong>Total commission expenses from TD1x</strong></td>
+ <td><input type="number" name="Total commission" value="0.00" ></td></tr>
+<tr><td> <strong>Estimated annual RRSP contributions</strong></td>
+ <td><input type="number" name="annual RRSP" value="0.00"></td></tr>
+<tr><td><strong> Number of days since last payment</strong></td>
+ <td><input type="number" name="Number of days " value="0.00"></td><tr>
+ </table>
+</form><br><br><br>
+
+
+<table  class="for">
+<tr>
+<th><strong>CPP and EI</strong></th>
+<th> <strong>Inputted Value</strong></th>
+</tr>
+<tr>
+<td>CPP contributions</td>
+<td><input type="text" name="Qpp"></td>
+</tr>
+<td>EI premiums</td>
+<td><input type="text" name="EI"></td>
+</tr>
+</table> 
+<br><br><br>
+
+</p>
+<small><button type="button">Previous</small></button><br>
+<small><button type="button">Print/save Result</button><button type="button">print/save combined result</small></button><br>
+<small><button type="button">Modify the Current Calculation</button><button type="button">Next Calculation</small></button>
+<small><button type="button">Start Over</small></button></p>
+
+<footer> <p><small> Version: V1730-02 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  ID: CO_S2OP</small></p></footer>
+ </div>
+
+</div>
+</body>
+</html>
